@@ -1,16 +1,27 @@
 {
-  "name": "klonkiosk",
-  "version": "1.0.0",
-  "description": "kiosk app for ecal",
+  "name": "ecal-kiosk",
+  "version": "0.1.0",
+  "author": "Sébastien Matos",
+  "description": "ECAL Kiosk",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "mac-package": "electron-packager . ECAL_KIOSK --overwrite --platform=darwin --arch=x64 --prune=true --out=dist"
+    "start": "electron ."
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecal-mid/ecal-kiosk.git"
+  },
+  "keywords": [],
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecal-mid/ecal-kiosk/issues"
+  },
+  "homepage": "https://github.com/ecal-mid/ecal-kiosk#readme",
   "devDependencies": {
-    "electron": "^6.0.11",
-    "electron-packager": "^14.0.6"
+    "electron": "^12.0.0"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-settings": "^4.0.2"
   }
 }
